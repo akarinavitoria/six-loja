@@ -1,5 +1,8 @@
-body{
-   background: rgb(82, 80, 80);
+html, body{
+   height: 100%;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
 }
 
 body
@@ -35,5 +38,6 @@ footer{
    color: white;
    background: black;
    text-align: center;
-   background-size: 280%;
+   margin-top:auto;
+   padding: 10px;
 }
