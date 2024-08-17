@@ -1,1 +1,1 @@
-six; loja virtual de charutos
+six; loja virtual

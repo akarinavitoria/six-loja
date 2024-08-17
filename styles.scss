@@ -3,6 +3,7 @@ html, body{
    margin: 0;
    display: flex;
    flex-direction: column;
+   background-image: linear-gradient(90deg, #000000,#e72525,#000000);/* igual a top right */
 }
 
 body
@@ -11,33 +12,60 @@ header{
    text-align: center;
 }
 
-header
-div{
-   color: white;
-   text-align: right;
-}
-
-h1{
-   color: white;
-   text-align: center;
-}
-
-p{
-  text-align: left;
-  color: white;
-}
-
 
 body
-P{
-   color: white;
+
+h2{
+   color: #e2b166;
+   text-align: center;
+   padding: 0;
+   height: 25%;
 }
 
+P{
+   color: rgb(255, 255, 255);
+   text-align: center;
+   height: 25%;
+}
 
+.categorias{
+   float: left;
+   width: 25%;
+   background-color:white;
+   margin: auto;
+ }
+ 
+ .row{
+   content: none;
+   display: table;
+ }
+
+h3{
+   color:#e2b166;
+   text-align: left;
+}
+ 
 footer{
    color: white;
    background: black;
    text-align: center;
-   margin-top:auto;
-   padding: 10px;
+   padding: auto;
+   margin-top: 60%;
 }
+
+h4{
+   text-align: left;
+}
+.contato{
+   text-align: left;
+}
+
+html{
+   color: white;
+   text-align: center;
+   background:#ff0000
+   height: 0;
+   display: flex;
+   flex-direction: column; 
+}
+
