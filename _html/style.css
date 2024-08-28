@@ -1,0 +1,56 @@
+html,body{
+    min-height: 100%;
+ }
+ 
+ body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+ }
+    
+ header{
+       position: relative;
+       padding: 3%;
+       color: white;
+       background-color: black;
+       text-align: center;
+ }
+ 
+ section{
+    text-align: center;
+ }
+ 
+ hgroup
+ h2{
+    text-align: center;
+ }
+ 
+ p{
+    text-align: center;
+ }
+
+ div
+ h3{
+    text-align: left;
+ }
+
+ div{
+   text-align: center
+ }
+ 
+ footer{
+    margin-top: 100%;
+    padding: 3%;
+    color: white;
+    background-color:black;
+ }
+ 
+ footer
+ div{
+    text-align: left;
+ }
+ 
+ footer
+ p{
+    text-align: left;
+ }
