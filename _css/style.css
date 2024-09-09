@@ -30,20 +30,35 @@ body{
  }
  
 
- div#tema{
+.tema{
 	 text-align: left;
 	 padding-left: 20px;
  }
  
- div#carrinho{
+ .mododeluz{
+	 color: black;
+ }
+ 
+ 
+ .carrinho{
      text-align: right;
 	 padding-right: 20px;
  }
  
- div#cadastro{
+ .compras{
+	 color: black;
+ }
+ 
+ 
+ .cadastro{
 	 text-align: right;
 	 padding-right: 20px;
  }
+ 
+ .usuario{
+	 color: black;
+ }
+ 
  
  form{
 	 text-align: center;
@@ -75,7 +90,7 @@ body{
 	padding-bottom: 0px;
  }
  
-div#categorias h3{
+.categorias h3{
   text-align: left;
   padding-top: 5px;
   padding-left: 25px;
@@ -84,12 +99,29 @@ div#categorias h3{
   background-color: #DDDDD9;
 }
 
-div ul{
+ul{
 	text-align: center;
 	padding-top: 5px;
 }
 
-div#produtos h3{
+.espadas{
+	text-align: left;
+}
+
+.ouros{
+	text-align: left;
+}
+
+.paus{
+	text-align: right;
+}
+
+.copas{
+	text-align: right;
+}
+
+
+.produtos h3{
   background-color: #DDDDD9;
   margin: 0px;
   text-align: left;
@@ -100,7 +132,7 @@ div#produtos h3{
   
 }
 
-div#produtos img{
+produtos img{
   text-align: left;
   padding: 800px;
   width: 15%;
@@ -108,7 +140,7 @@ div#produtos img{
   margin-bottom: 0px;
 }
 
-div#produtos img{
+produtos img{
   border-style: solid;
   border-radius: 5px;
   color: #DDDDDD;
@@ -157,19 +189,51 @@ article#politicas a:hover{
   color: white; 
 }
 
- div#contatos{
+.Contatos{
   text-align: left;
-  padding-top: 2px;
-  padding-bottom: 3px;
+  padding-top: 1px;
+  padding-bottom: 5px;
   padding-left: 25px;
   font-size: 12pt;
 }
 
- div#contatos img{
-  text-align: left;
-  padding-top: 1px;
-  font-size: 12pt;
-  padding-bottom:15px;
+section#newsletter h3{
+	margin: 0px;
+	text-align: right;
+  padding-right: 36px;
+  padding-bottom:0px;
+  padding-top: 0px;
+  font-size: 20pt;
+}
+
+section#newsletter p{
+	margin: 0px;
+	text-align: right;
+  padding-right: 55px;
+  padding-bottom:10px;
+  padding-top: 5px;
+  font-size: 14pt;
+}
+
+form#noticias input{
+	text-align: left;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form#noticias{
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+section#cliqueaqui{
+	text-align: right;
+	padding-right:250px;
+	padding-top:0px;
+	padding-bottom: 5px;
 }
 
 footer#copyright{
