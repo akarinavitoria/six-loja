@@ -16,47 +16,72 @@ body{
   padding-top: 5px;
  }
  
- header#logotipo{
+ section#logodaloja{
   text-align: center;
-  margin-top: 0px;
-  padding-top: 2px;
+  margin-top: 2px;
+  padding-top: 0px;
   padding-bottom: 2px;
  }
  
+ section#botoes{
+	 padding: auto;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+ }
+ 
+
  div#tema{
 	 text-align: left;
+	 padding-left: 20px;
  }
  
  div#carrinho{
- text-align: right;
+     text-align: right;
+	 padding-right: 20px;
  }
  
  div#cadastro{
 	 text-align: right;
+	 padding-right: 20px;
  }
  
- 
- section#pesquisas{
+ form{
 	 text-align: center;
 	 font-family: arial;
-	 border-style: solid;
-	 border-width: 1px;
-	 color: #ffffff;
-	 border-radius: 30ch;
+	 padding-top: 2px;
+	 padding-bottom: 2px;
+	 margin-top: 2px;
  }
-
+  
+ form input{
+	 border-style: hidden;
+	 border-radius: 28ch;
+	 padding: 5px;
+	 border-width: 1px;
+	 margin: 1px;
+ }
+  
  section#fotodecharuto{
   margin-top: 0px;
   padding: 100px;
-  background-color: gray;
+  background-color:transparent;
  }
-
+ 
+ section#fotodecharuto{
+	text-align: center;
+	padding-left: 0px;
+    padding-right:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+ }
+ 
 div#categorias h3{
   text-align: left;
   padding-top: 5px;
   padding-left: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
+  background-color: #DDDDD9;
 }
 
 div ul{
@@ -64,19 +89,20 @@ div ul{
 	padding-top: 5px;
 }
 
-div#produtos{
+div#produtos h3{
+  background-color: #DDDDD9;
+  margin: 0px;
   text-align: left;
-  margin: 5px;
   padding: 10px;
-  padding-top: 10;
+  padding-top: 10px;
   padding-left: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 5px
+  
 }
 
 div#produtos img{
   text-align: left;
-  padding-top: 25px;
-  padding-left: 0px;
+  padding: 800px;
   width: 15%;
   margin-top: 0px;
   margin-bottom: 0px;
