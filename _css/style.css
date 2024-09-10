@@ -9,7 +9,7 @@ body{
  }
     
  header{
-  position: relative;
+  position: static;
   color: white;
   background-color: #000009;
   margin-top: 0px;
@@ -99,13 +99,16 @@ body{
   background-color: #DDDDD9;
 }
 
-ul{
-	text-align: center;
-	padding-top: 5px;
+.categorias ol{
+	float: center;
+	padding-left: 280px;
+	padding-right: 280px;
+	margin:0px
 }
 
 .esqueiros{
 	text-align: left;
+     
 }
 
 .cortadores{
@@ -120,6 +123,7 @@ ul{
 	text-align: right;
 }
 
+
 .produtos h3{
   background-color: #DDDDD9;
   margin: 0px;
@@ -128,18 +132,9 @@ ul{
   padding-top: 10px;
   padding-left: 25px;
   padding-bottom: 5px
-  
 }
 
-produtos img{
-  text-align: left;
-  padding: 800px;
-  width: 15%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-produtos img{
+.produtos img{
   border-style: solid;
   border-radius: 5px;
   color: #DDDDDD;
@@ -154,33 +149,40 @@ produtos img{
  }
 
  article#sobrenos h3{
-  padding-top: 45px;
+	 position: relative;
+	 top: 20px;
   text-align: left;
-  padding-left: 25px;
-  font-size: 12pt;
- }
+ left: 45px;
+  font-size: 15pt;
+  }
  
  hgroup p{
-  padding-top: 2px;
-  text-align: justify;
-  padding-left: 25px;
+  	 position: relative;
+	 top:25px;
+  text-align:justify;
   padding-right: 895px;
-  padding-bottom: 0px;
+ left: 45px;
   font-size: 12pt;
  }
 
  article#atendimento p{
-  text-align: left;
-  padding-top: 35px;
-  padding-left: 25px;
+ 	 position: relative;
+	 top:35px;
+  text-align:justify;
+  padding-right: 895px;
+ left: 45px;
   font-size: 12pt;
+ 
 }
   
  article#politicas {
-  text-align: left;
-  padding-top: 2px;
-  padding-left: 25px;
+ 	 position: relative;
+	 top:35px;
+  text-align:justify;
+  padding-right: 895px;
+ left: 45px;
   font-size: 12pt;
+
 }
 
 article#politicas a:hover{
@@ -189,29 +191,35 @@ article#politicas a:hover{
 }
 
 .Contatos{
+	position: relative;
   text-align: left;
-  padding-top: 1px;
-  padding-bottom: 5px;
-  padding-left: 25px;
+  top: 45px;
+  bottom: 5px;
+  left: 45px;
   font-size: 12pt;
 }
 
-section#newsletter h3{
-	margin: 0px;
+
+.clientes{
+	position: relative;
 	text-align: right;
-  padding-right: 36px;
-  padding-bottom:0px;
-  padding-top: 0px;
-  font-size: 20pt;
+	bottom: 320px;
+	right: 75px;
+    font-size: 15pt;
 }
 
-section#newsletter p{
-	margin: 0px;
+.clientes h3{
+	position: relative;
 	text-align: right;
-  padding-right: 55px;
-  padding-bottom:10px;
-  padding-top: 5px;
-  font-size: 14pt;
+	padding-right:45px;
+	margin: auto
+}
+
+.clientes p{
+	position: relative;
+	text-align: center;
+	padding-left: 955px;
+	font-size: 12pt;
 }
 
 form#noticias input{
