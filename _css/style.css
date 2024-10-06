@@ -1,15 +1,13 @@
-html,body{
-   min-height: 100%;
- }
+*{
+     padding:0;
+	margin: 0;
+}
  
 body{
   background-color: white;
-  margin: 0px;
-  padding: auto;
  }
     
  header{
-  position: static;
   color: white;
   background-color: #000009;
   margin-top: 0px;
@@ -18,21 +16,14 @@ body{
  
  section#logodaloja{
   text-align: center;
-  margin-top: 2px;
-  padding-top: 0px;
-  padding-bottom: 2px;
  }
  
  section#botoes{
 	 padding: auto;
-	 margin-top: 0px;
-	 margin-bottom: 0px;
  }
- 
 
 .tema{
 	 text-align: left;
-	 padding-left: 20px;
  }
  
  .mododeluz{
@@ -42,7 +33,7 @@ body{
  
  .carrinho{
      text-align: right;
-	 padding-right: 20px;
+
  }
  
  .compras{
@@ -52,7 +43,7 @@ body{
  
  .cadastro{
 	 text-align: right;
-	 padding-right: 20px;
+
  }
  
  .usuario{
@@ -63,9 +54,7 @@ body{
  form{
 	 text-align: center;
 	 font-family: arial;
-	 padding-top: 2px;
-	 padding-bottom: 2px;
-	 margin-top: 2px;
+	
  }
   
  form input{
@@ -77,50 +66,65 @@ body{
  }
   
  section#fotodecharuto{
-  margin-top: 0px;
-  padding: 100px;
   background-color:transparent;
- }
- 
- section#fotodecharuto{
-	text-align: center;
-	padding-left: 0px;
-    padding-right:0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
  }
  
 .categorias h3{
   text-align: left;
-  padding-top: 5px;
-  padding-left: 25px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   background-color: #DDDDD9;
 }
 
 .categorias ol{
 	float: center;
-	padding-left: 280px;
-	padding-right: 280px;
-	margin:0px
 }
 
 .esqueiros{
-	text-align: left;
-     
+	position: relative;
+	top: 85px;
+	left: 45px;
 }
 
+.esqueiros img{
+	border-style: solid;
+	border-radius: 108px;
+	border-width: 1px;
+}
+
+
 .cortadores{
-	text-align: left;
+	position: relative;
+	bottom: 2px;
+	left: 155px;
+}
+
+.cortadores img{
+	border-style: solid;
+	border-radius: 108px;
+	border-width: 1px;
 }
 
 .sedas{
-	text-align: right;
+	position: relative;
+	bottom: 88px;
+	left: 250px;
+}
+
+.sedas img{
+	border-style: solid;
+	border-radius: 108px;
+	border-width: 1px;
 }
 
 .bebidas{
-	text-align: right;
+	position: relative;
+	bottom: 175px;
+	left: 350px;
+}
+
+.bebidas img{
+	border-style: solid;
+	border-radius: 108px;
+	border-width: 1px;
 }
 
 
@@ -142,8 +146,9 @@ body{
 }
 
  footer#rodape{
-  margin-top: 100px;
+  margin:0px;
   padding: 0px;
+  width: 100%;
   color: white;
   background-color:black;
  }
@@ -152,18 +157,11 @@ body{
 	 position: relative;
 	 top: 20px;
   text-align: left;
- left: 45px;
+ padding-left: 0px;
+ padding-right: 70px;
   font-size: 15pt;
   }
- 
- hgroup p{
-  	 position: relative;
-	 top:25px;
-  text-align:justify;
-  padding-right: 895px;
- left: 45px;
-  font-size: 12pt;
- }
+
 
  article#atendimento p{
  	 position: relative;
@@ -208,32 +206,19 @@ article#politicas a:hover{
     font-size: 15pt;
 }
 
-.clientes h3{
-	position: relative;
-	text-align: right;
-	padding-right:45px;
-	margin: auto
-}
 
-.clientes p{
-	position: relative;
-	text-align: center;
-	padding-left: 955px;
-	font-size: 12pt;
-}
 
 form#noticias input{
-	text-align: left;
+	text-align: center;
   padding-right: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
+  
 }
 
 form#noticias{
 	text-align: right;
 	padding-right: 25px;
-	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 section#cliqueaqui{
@@ -250,4 +235,5 @@ footer#copyright{
   background-color: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
   margin: 0px; 
+  width: 100%;
 }
