@@ -1,94 +1,126 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=width-device,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="loja virtual para portfolio">
+    <title>loja virtual</title>
     <link rel="stylesheet" href="_css/style.css">
-    <title>SIX</title>
 </head>
 
 <body>
-    <header id="logotipo">
-        <section id="logodaloja">
-            <img src="_imagens/corpodaloja/six-logo.png" alt="logo" width="85">
+   <!-- cabeçalho -->
+    <header>
+        <section class="logo">
+            <div class="logo-image">
+               <img src="#" alt="logo" width="60px">
+            </div>
         </section>
 
-        <section id="pesquisas">
-            <form id="pesquisa" method="get">
+        <!--ações do usuário-->
+         <section class="user">
+            <div class="pesquisar">
                 <input type="text" size="60" maxlength="50" placeholder="Pesquise aqui">
-            </form>
-        </section>
+            </div>
 
-        <section id="botoes">
-            <div class="tema">
-                <input type="button" value="temaclaro/temaescuro">
-            </div>
-            <div class="carrinho">
-                <input type="button" value="carrinho">
-            </div>
-            <div class="cadastro">
-                <input type="button" value="entreoucadastre-se">
+            <div class="user-itens">
+              <ul>
+                <li>
+                <button><p>login</p></button>
+                </li>
+
+                <li>
+                <button><p>carrinho</p></button>
+                </li>
+              </ul>
             </div>
         </section>
     </header>
 
-    <div class="categorias">
-        <h3>Categorias</h3>
+    <!--Conteúdo da página-->
+    <section class="content">
+        <div class="category">
+        <h2>Categorias</h2>
         <ul>
-            <li class="esqueiros"><img src="_categorias/espadas-icone.png" alt="espadas" height="100"></li>
-            <li class="cortadores"><img src="_categorias/ouros-icone.png" alt="ouros" height="100"></li>
-            <li class="sedas"><img src="_categorias/paus-icone.png" alt="paus" height="100"></li>
-            <li class="bebidas"><img src="_categorias/copas-icone.png" alt="copas" height="100"></li>
+            <li>
+                <img src="#" alt="#" height="100">
+            </li>
+
+            <li>
+                <img src="#" alt="#" height="100">
+            </li>
+
+            <li>
+                <img src="#" alt="#" height="100">
+            </li>
+
+            <li>
+                <img src="#" alt="#" height="100">
+            </li>
         </ul>
+        </div>
     </div>
+    </section>
 
+    <section class="content-2">
     <div class="produtos">
-        <h3>Mais Vendidos</h3>
+
+        <div class="produtos-itens">
+            <div class="mais-vendidos"></div>
+            <h2>Mais Vendidos</h2>
+             <img src="#" alt="#">
+           </div>
+
+       <div class="comprar-agora">
+        <H2>Produtos</H2>
+           <img src="#" alt="#">
+            <h3>Nome do Produto</h3>
+            <p>Descrição</p>
+            <button><p>Comprar</p></button>
+            <button><p>Adicionar ao carrinho </p></button>
+       </div>
     </div>
+    </section>
 
-    <footer id="rodape">
-        <article id="sobrenos">
-            <hgroup>
-            <h3>Sobre a SIX</h3>
-            <p>Seja bem-vindo(a) à loja Six, aqui você encontra uma variedade de produtos com a melhor qualidade.
-                Trabalhamos com as melhores marcas do mercado buscando proporcionar a melhor experiência possível aos nossos clientes, desde os nossos produtos até nosso atendimento de ponta. A Six oferece 100% qualidade e segurança.</p>
-                </hgroup>
-        </article>
+    <!--Rodapé-->
+    <footer>
+        <h3>Sobre a loja</h3>
+        <p>
+        Seja bem-vindo(a) à loja virtual, aqui você encontra uma variedade de produtos com a melhor qualidade.
+        Trabalhamos com as melhores marcas do mercado buscando proporcionar a melhor experiência possível aos nossos clientes, desde os nossos produtos até nosso atendimento de ponta. A loja virtual oferece 100% qualidade e segurança.
+        </p>
+                
+        <div class="atendimento">
+        <h3>Horários de Atendimento</h3>
+        <p>
+           Segunda à Sexta: <br> 
+           Sábados:
+        </p>
+        </div>
 
-        <article id="atendimento">
-            <h3>Horários de Atendimento</h3>
-            <p>Segunda à Sexta: <br> Sábados:</p>
-        </article>
-
-        <article id="politicas">
-            <p><a href="" target="_blank">Políticas de privacidade</a> | <a href="" target="_blank">Termos e condições</a></p>
-        </article>
+        <div class="politicas">
+          <a href="#" target="_blank">
+             <p>Políticas de privacidade</p>
+            </a>
+            <a href="#" target="_blank">
+             <p>Termos e condições</p>
+            </a>
+       </div>
 
         <div class="contatos">
-            <h4>Fale Conosco</h4>
-            <img src="_imagens/contatos/whatsapp.png" alt="whatsapp" width="35">
-            <img src="_imagens/contatos/instagram.png" alt="instagram" width="35">
+            <h3>Fale Conosco</h3>
+         <a href="#" target="#">
+            <img src="_imagens/contatos/whatsapp.png" alt="whatsapp" width="35"/>
+            </a>
+        <a href="#" target="#">
+            <img src="_imagens/contatos/instagram.png" alt="instagram" width="35"/>
+            </a>
         </div>
 
-        <div class="clientes">
-            <section id="newsletter">
-                <h3>Assine a nossa newsletter</h3>
-                <p>Fique por dentro das novidades!</p>
-                <form id="noticias" method="get">
-                    <input type="email" size="35" maxlength="50" placeholder="Digite seu E-mail">
-                </form>
-            </section>
-            <section id="cliqueaqui">
-                <input type="button" name="Assinatura" size="45" value="assine aqui">
-            </section>
-        </div>
-    </footer>
-
-    <footer id="copyright">
-        &copy; 2024 | SIX
-    </footer>
+        <section class="copyright">
+           &copy; 2024. Akarinavitoria e Gustavo.
+        </section>
+    </footer> 
 </body>
-
 </html>
