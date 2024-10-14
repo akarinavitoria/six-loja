@@ -1,1 +1,1 @@
-six; loja virtual
+Loja virtual.
