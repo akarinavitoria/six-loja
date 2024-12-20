@@ -1,6 +1,6 @@
-from flask import Flask, jsonify
-from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS
+from Flask import Flask, jsonify
+from FlaskSQLAlchemy import SQLAlchemy
+from FlaskCors import CORS
 
 app = Flask(__name__)
 CORS(app)
