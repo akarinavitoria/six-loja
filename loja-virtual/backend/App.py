@@ -1,6 +1,6 @@
-from Flask import Flask, jsonify
-from Flask_SQLAlchemy import SQLAlchemy
-from Flask_Cors import CORS
+from flask import Flask, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
@@ -18,3 +18,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
